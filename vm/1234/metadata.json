@@ -11,7 +11,7 @@
     "kernel": null,
     "cpus": 2,
     "memory": "4MB",
-    "diskSize": "0B"
+    "diskSize": "5GB"
   },
   "status": {
     "state": "",
