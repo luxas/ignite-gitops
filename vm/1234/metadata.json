@@ -1,0 +1,20 @@
+{
+  "kind": "VM",
+  "apiVersion": "ignite.weave.works/v1alpha1",
+  "metadata": {
+    "name": "foo",
+    "uid": "1234",
+    "created": "2019-07-04T12:21:25Z"
+  },
+  "spec": {
+    "image": null,
+    "kernel": null,
+    "cpus": 2,
+    "memory": "4MB",
+    "diskSize": "0B"
+  },
+  "status": {
+    "state": "",
+    "ipAddresses": null
+  }
+}
