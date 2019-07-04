@@ -1,0 +1,10 @@
+apiVersion: ignite.weave.works/v1alpha1
+kind: VM
+metadata:
+  created: "2019-07-04T12:21:25Z"
+  name: foobar
+  uid: "1235"
+spec:
+  cpus: 2
+  diskSize: 3GB
+  memory: 5MB
