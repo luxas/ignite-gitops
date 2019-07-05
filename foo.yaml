@@ -5,6 +5,8 @@ metadata:
   name: foobar
   uid: "5121287c6564adee"
 spec:
+  image:
+    ref: weaveworks/ignite-ubuntu:latest
   cpus: 2
   diskSize: 3GB
   memory: 5MB
