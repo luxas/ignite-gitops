@@ -11,4 +11,4 @@ spec:
   diskSize: 4GB
   memory: 512MB
 status:
-  state: Created
+  state: Running
