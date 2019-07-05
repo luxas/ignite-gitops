@@ -11,4 +11,4 @@ spec:
   memory: 1024MB
   ssh: {}
 status:
-  state: Created
+  state: Running
