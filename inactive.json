@@ -2,19 +2,19 @@
   "kind": "VM",
   "apiVersion": "ignite.weave.works/v1alpha1",
   "metadata": {
-    "name": "foo",
-    "uid": "1234",
+    "name": "second-vm",
+    "uid": "5121287c6564adef",
     "created": "2019-07-04T12:21:25Z"
   },
   "spec": {
-    "image": null,
-    "kernel": null,
-    "cpus": 2,
-    "memory": "4MB",
+    "image": {
+      "ref": "weaveworks/ignite-centos"
+    },
+    "cpus": 1,
+    "memory": "512MB",
     "diskSize": "5GB"
   },
   "status": {
-    "state": "",
-    "ipAddresses": null
+    "state": "Created"
   }
 }
