@@ -3,8 +3,10 @@ kind: VM
 metadata:
   created: "2019-07-04T12:21:25Z"
   name: foobar
-  uid: "1235"
+  uid: "5121287c6564adee"
 spec:
   cpus: 2
   diskSize: 3GB
   memory: 5MB
+status:
+  state: Created
