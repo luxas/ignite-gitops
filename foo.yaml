@@ -2,13 +2,13 @@ apiVersion: ignite.weave.works/v1alpha1
 kind: VM
 metadata:
   created: "2019-07-04T12:21:25Z"
-  name: foobar
+  name: ubuntu-vm
   uid: "5121287c6564adee"
 spec:
   image:
     ref: weaveworks/ignite-ubuntu:latest
   cpus: 2
-  diskSize: 3GB
-  memory: 5MB
+  diskSize: 4GB
+  memory: 512MB
 status:
   state: Created
