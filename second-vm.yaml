@@ -1,11 +1,11 @@
 apiVersion: ignite.weave.works/v1alpha1
 kind: VM
 metadata:
-  name: my-vm
-  uid: "5121287c6564adee"
+  name: second-vm
+  uid: "6121287c6564adee"
 spec:
   image:
-    ref: weaveworks/ignite-ubuntu:latest
+    ref: weaveworks/ignite-centos:latest
   cpus: 2
   diskSize: 4GB
   memory: 1024MB
