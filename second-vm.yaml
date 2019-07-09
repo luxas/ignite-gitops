@@ -5,10 +5,11 @@ metadata:
   uid: "6121287c6564adee"
 spec:
   image:
-    ref: weaveworks/ignite-centos:latest
+    ociClaim:
+      ref: weaveworks/ignite-ubuntu
   cpus: 2
   diskSize: 4GB
-  memory: 1024MB
-  ssh: {}
+  memory: 512MB
+  ssh: true
 status:
   state: Running
