@@ -22,9 +22,14 @@ spec:
   ssh: true
 status:
   image:
-    id: ""
-    size: 0B
+    id: sha256:9f38484d220fa527b1fb19747638497179500a1bed8bf0498eb788229229e6e1
+    repoDigests:
+    - centos@sha256:a799dd8a2ded4a83484bbae769d97655392b3f86533ceb7dd96bbac929809f3c
+    - centos@sha256:b5e66c4651870a1ad435cd75922fe2cb943c9e973a9673822d1414824a1d0475
+    size: 201782942B
   kernel:
-    id: ""
-    size: 0B
+    id: sha256:5e5165af3e5dda9371abce633189eed1f80f9c493635e37264c6783fd5e0f6c9
+    repoDigests:
+    - weaveworks/ignite-kernel@sha256:18ee1005bb3881faf09059038eca8b298d9d7598cde675c4a900e275fe0a2454
+    size: 51377512B
   state: Running
