@@ -24,4 +24,4 @@ status:
   kernel:
     id: null
     size: 0B
-  running: false
+  running: true
