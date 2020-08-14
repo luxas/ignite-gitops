@@ -1,0 +1,10 @@
+apiVersion: sample-app.weave.works/v1alpha1
+kind: Car
+metadata:
+  creationTimestamp: null
+  name: foo
+  namespace: default
+spec:
+  brand: SAAB
+  engine: "The best one"
+  yearModel: "2008"
