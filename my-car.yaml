@@ -1,7 +1,7 @@
 apiVersion: sample-app.weave.works/v1alpha1
 kind: Car
 metadata:
-  creationTimestamp: null
+  creationTimestamp: "2020-08-17T14:22:42Z"
   name: foo
   namespace: default
 spec:
@@ -10,6 +10,6 @@ spec:
   yearModel: "2008"
 status:
   acceleration: 0
-  distance: 2829913513400996805
+  distance: 6388053351587621242
   persons: 0
-  speed: 41.683445635709234
+  speed: 57.864881795920695
