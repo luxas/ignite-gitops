@@ -1,7 +1,0 @@
-apiVersion: example.com/v1alpha1
-kind: NonIgniteCRD
-metadata:
-  name: should-be-ignored
-  uid: "1234"
-spec: {}
-status: {}
