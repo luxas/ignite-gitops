@@ -10,6 +10,6 @@ spec:
   yearModel: "2008"
 status:
   acceleration: 0
-  distance: 5708832917856705042
+  distance: 3535121528220169204
   persons: 0
-  speed: 62.90835176069233
+  speed: 32.52856013956897
