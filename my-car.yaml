@@ -3,7 +3,6 @@ kind: Car
 metadata:
   creationTimestamp: "2020-08-17T14:33:16Z"
   name: foo
-  namespace: default
 spec:
   brand: SAAB
   engine: The best one
